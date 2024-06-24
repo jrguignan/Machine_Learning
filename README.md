@@ -1,4 +1,7 @@
 En construccion 🚧
+<p align="center">
+<img src="images/banner.png"  height=400>
+</p>
 
 # Índice
 
