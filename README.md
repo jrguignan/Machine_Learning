@@ -11,7 +11,7 @@ En construccion 🚧
 * [Por Refuerzo](#Por-Refuerzo)
 * [Autor](#Autor)
 
-# Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
+# [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
 
 # Supervisado
 
