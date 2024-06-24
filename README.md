@@ -5,12 +5,13 @@ En construccion 🚧
 
 # Índice
 
+* [Pre Procesamiento](#Pre-Procesamiento) 
 * [Supervisado](#Supervisado) 
 * [No Supervisado](#No-Supervisado)
 * [Por Refuerzo](#Por-Refuerzo)
-
 * [Autor](#Autor)
 
+# Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
 
 # Supervisado
 
