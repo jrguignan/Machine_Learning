@@ -13,6 +13,13 @@ En construccion 🚧
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
 
+Antes de correr algún algoritmo de machine learning es de suma importancia revisar que los datos tengan las formas adecuadas, es por ello que en esta sección revisaremos varios de los factores a tener en cuenta.
+
+- Datos Faltantes
+- Tratamiento de variables
+- División de Datos
+- Escalado de Datos
+
 # Supervisado
 
 # No Supervisado
