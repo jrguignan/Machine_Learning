@@ -6,9 +6,8 @@ En construccion 🚧
 # Índice
 
 * [Pre Procesamiento](#Pre-Procesamiento) 
-* [Supervisado](#Supervisado) 
-* [No Supervisado](#No-Supervisado)
-* [Por Refuerzo](#Por-Refuerzo)
+* [Regresion](#Regresion) 
+* 
 * [Autor](#Autor)
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
@@ -20,11 +19,9 @@ Antes de correr algún algoritmo de machine learning es de suma importancia revi
 - División de Datos
 - Escalado de Datos
 
-# Supervisado
+# Regresion
 
-# No Supervisado
 
-# Por Refuerzo
 
 <br>[Volver al Índice](#Índice)
 
