@@ -7,7 +7,6 @@ En construccion 🚧
 
 * [Pre Procesamiento](#Pre-Procesamiento) 
 * [Regresion](#Regresion) 
-* 
 * [Autor](#Autor)
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
@@ -19,7 +18,9 @@ Antes de correr algún algoritmo de machine learning es de suma importancia revi
 - División de Datos
 - Escalado de Datos
 
-# Regresion
+# [Regresion](https://github.com/jrguignan/Machine_Learning/tree/main/Regresion)
+
+- Modelo Regresión Lineal Simple
 
 
 
