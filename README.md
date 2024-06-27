@@ -18,9 +18,30 @@ Antes de correr algún algoritmo de machine learning es de suma importancia revi
 - División de Datos
 - Escalado de Datos
 
+
+<br>[Volver al Índice](#Índice)
+
 # [Regresion](https://github.com/jrguignan/Machine_Learning/tree/main/Regresion)
 
-- Modelo Regresión Lineal Simple
+Para poder aplicar un modelo de regresión lineal se debe tener en cuenta:
+- Linealidad
+- Homocedasticidad
+- Normalidad Multivariable
+- Independencia de los Errores
+- Ausencia de Multicolinealidad
+
+
+## Modelo Regresión Lineal Simple
+
+## Modelo Regresión Lineal Múltiple
+
+Metodo de cosntruccion del modelo:
+- Exahustivo (all in)
+- Eliminación hacia atrás
+- Selección hacia adelante
+- Eliminación Bilateral
+- Comparación de scores
+
 
 
 
