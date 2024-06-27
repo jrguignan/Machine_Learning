@@ -42,7 +42,7 @@ Metodo de cosntruccion del modelo:
 - Eliminación Bilateral
 - Comparación de scores
 
-
+## Modelo Regresión Lineal Polinómica
 
 
 <br>[Volver al Índice](#Índice)
