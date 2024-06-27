@@ -44,6 +44,8 @@ Metodo de cosntruccion del modelo:
 
 ## Modelo Regresión Lineal Polinómica
 
+## Regresion con Support Vector Machine
+
 
 <br>[Volver al Índice](#Índice)
 
