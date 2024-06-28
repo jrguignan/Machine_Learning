@@ -41,5 +41,5 @@ ggplot()+
   xlab("Nivel del Empleado")+
   ylab("Sueldo en $")
 
-#Hace una aproximacion decente del modelo
+#Hace una aproximacion con fallas
 
