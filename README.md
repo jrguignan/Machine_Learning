@@ -6,7 +6,8 @@ En construccion 🚧
 # Índice
 
 * [Pre Procesamiento](#Pre-Procesamiento) 
-* [Regresion](#Regresion) 
+* [Regresión](#Regresión) 
+* [Clasificación](#Clasificación) 
 * [Autor](#Autor)
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
@@ -21,7 +22,7 @@ Antes de correr algún algoritmo de machine learning es de suma importancia revi
 
 <br>[Volver al Índice](#Índice)
 
-# [Regresion](https://github.com/jrguignan/Machine_Learning/tree/main/Regresion)
+# [Regresión](https://github.com/jrguignan/Machine_Learning/tree/main/Regresion)
 
 Para poder aplicar un modelo de regresión lineal se debe tener en cuenta:
 - Linealidad
@@ -46,7 +47,7 @@ Metodo de cosntruccion del modelo:
 
 ## Regresion con Support Vector Machine
 
-# [Clasificacion](https://github.com/jrguignan/Machine_Learning/tree/main/Clasificacion)
+# [Clasificación](https://github.com/jrguignan/Machine_Learning/tree/main/Clasificacion)
 
 ## Regresión Logística
 
