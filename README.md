@@ -46,6 +46,9 @@ Metodo de cosntruccion del modelo:
 
 ## Regresion con Support Vector Machine
 
+# [Clasificacion](https://github.com/jrguignan/Machine_Learning/tree/main/Clasificacion)
+
+## Regresión Logística
 
 <br>[Volver al Índice](#Índice)
 
