@@ -74,10 +74,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 
-y_grid =  knn(train = dataset_train[, -3],
-              test = dataset_test[, -3],
-              cl = dataset_train[, 3],
-              k = 5)
+y_grid =  predict(clasificador, newdata = dataset_test[, -3])
 plot(set[, -3],
      main = 'Clasificación (Conjunto de Entrenamiento)',
      xlab = 'Edad', ylab = 'Sueldo Estimado',
@@ -94,10 +91,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 
-y_grid =  knn(train = dataset_train[, -3],
-              test = dataset_test[, -3],
-              cl = dataset_train[, 3],
-              k = 5)
+y_grid =  predict(clasificador, newdata = dataset_test[, -3])
 plot(set[, -3],
      main = 'Clasificación (Conjunto de Testing)',
      xlab = 'Edad', ylab = 'Sueldo Estimado',
@@ -143,10 +137,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 
-y_grid =  knn(train = dataset_train[, -3],
-              test = dataset_test[, -3],
-              cl = dataset_train[, 3],
-              k = 5)
+y_grid =  predict(clasificador, newdata = dataset_test[, -3])
 plot(set[, -3],
      main = 'Clasificación (Conjunto de Entrenamiento)',
      xlab = 'Edad', ylab = 'Sueldo Estimado',
@@ -163,10 +154,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 
-y_grid =  knn(train = dataset_train[, -3],
-              test = dataset_test[, -3],
-              cl = dataset_train[, 3],
-              k = 5)
+y_grid =  predict(clasificador, newdata = dataset_test[, -3])
 plot(set[, -3],
      main = 'Clasificación (Conjunto de Testing)',
      xlab = 'Edad', ylab = 'Sueldo Estimado',
@@ -211,10 +199,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 
-y_grid =  knn(train = dataset_train[, -3],
-              test = dataset_test[, -3],
-              cl = dataset_train[, 3],
-              k = 5)
+y_grid =  predict(clasificador, newdata = dataset_test[, -3])
 plot(set[, -3],
      main = 'Clasificación (Conjunto de Entrenamiento)',
      xlab = 'Edad', ylab = 'Sueldo Estimado',
@@ -231,11 +216,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 
-y_grid =  knn(train = dataset_train[, -3],
-              test = dataset_test[, -3],
-              cl = dataset_train[, 3],
-              k = 5)
-plot(set[, -3],
+y_grid =  predict(clasificador, newdata = dataset_test[, -3])
      main = 'Clasificación (Conjunto de Testing)',
      xlab = 'Edad', ylab = 'Sueldo Estimado',
      xlim = range(X1), ylim = range(X2))
