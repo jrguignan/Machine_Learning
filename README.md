@@ -61,6 +61,8 @@ Metodo de cosntruccion del modelo:
 
 ## Maquinas de Soporte Vectorial
 
+## Naive Bayes
+
 <br>[Volver al Índice](#Índice)
 
 # Autor
