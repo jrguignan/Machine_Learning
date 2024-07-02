@@ -1,4 +1,4 @@
-# Regresion Logistica
+# Clasificacion K vecinos cercanos
 
 #apertura de archivo csv
 dataset = read.csv("c:\\Users\\jrgui\\Documents\\GitHub\\Machine_Learning\\clasificacion\\datasets\\Social_Network_Ads.csv")

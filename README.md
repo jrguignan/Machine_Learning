@@ -59,6 +59,8 @@ Metodo de cosntruccion del modelo:
 
 ## K Vecinos Cercanos
 
+## Maquinas de Soporte Vectorial
+
 <br>[Volver al Índice](#Índice)
 
 # Autor
