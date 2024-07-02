@@ -45,13 +45,19 @@ Metodo de cosntruccion del modelo:
 
 ## Modelo Regresión Lineal Polinómica
 
-## Regresion con Support Vector Machine
+## Máquinas de Soporte Vectorial
+
+## Árboles de Decisión
+
+## Bosques Aleatorios
 
 <br>[Volver al Índice](#Índice)
 
 # [Clasificación](https://github.com/jrguignan/Machine_Learning/tree/main/Clasificacion)
 
 ## Regresión Logística
+
+## K Vecinos Cercanos
 
 <br>[Volver al Índice](#Índice)
 
