@@ -8,6 +8,8 @@ En construccion 🚧
 * [Pre Procesamiento](#Pre-Procesamiento) 
 * [Regresión](#Regresión) 
 * [Clasificación](#Clasificación) 
+* [Agrupamiento](#Agrupamiento) 
+
 * [Autor](#Autor)
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
@@ -71,6 +73,7 @@ Metodo de cosntruccion del modelo:
 
 # [Agrupamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Agrupamiento)
 
+## K Medias
 
 <br>[Volver al Índice](#Índice)
 
