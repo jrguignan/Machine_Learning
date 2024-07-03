@@ -63,6 +63,15 @@ Metodo de cosntruccion del modelo:
 
 ## Naive Bayes
 
+## Árboles de Desición
+
+## Bosque Aleatorio
+
+<br>[Volver al Índice](#Índice)
+
+# [Agrupamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Agrupamiento)
+
+
 <br>[Volver al Índice](#Índice)
 
 # Autor
