@@ -79,7 +79,10 @@ La trampa de inicialización se resuelve con k-means++
 
 ### WCSS - Método del Codo
 
+## Agrupamiento Jerarquico
+
 <br>[Volver al Índice](#Índice)
+
 
 # Autor
 
