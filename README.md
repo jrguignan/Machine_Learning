@@ -83,6 +83,9 @@ La trampa de inicialización se resuelve con k-means++
 
 <br>[Volver al Índice](#Índice)
 
+# [Reglas de Asociación](https://github.com/jrguignan/Machine_Learning/tree/main/Reglas_de_Asociacion)
+
+# A Priori
 
 # Autor
 
