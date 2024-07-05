@@ -9,6 +9,7 @@ En construccion 🚧
 * [Regresión](#Regresión) 
 * [Clasificación](#Clasificación) 
 * [Agrupamiento](#Agrupamiento) 
+* [Reglas de Asociación](#Reglas-de-Asociación) 
 
 * [Autor](#Autor)
 
@@ -85,7 +86,11 @@ La trampa de inicialización se resuelve con k-means++
 
 # [Reglas de Asociación](https://github.com/jrguignan/Machine_Learning/tree/main/Reglas_de_Asociacion)
 
-# A Priori
+## A Priori
+
+## Eclat
+
+<br>[Volver al Índice](#Índice)
 
 # Autor
 
