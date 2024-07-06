@@ -10,6 +10,7 @@ En construccion 🚧
 * [Clasificación](#Clasificación) 
 * [Agrupamiento](#Agrupamiento) 
 * [Reglas de Asociación](#Reglas-de-Asociación) 
+* [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
 
 * [Autor](#Autor)
 
@@ -86,11 +87,26 @@ La trampa de inicialización se resuelve con k-means++
 
 # [Reglas de Asociación](https://github.com/jrguignan/Machine_Learning/tree/main/Reglas_de_Asociacion)
 
+
 ## A Priori
 
 ## Eclat
 
 <br>[Volver al Índice](#Índice)
+
+# [Aprendizaje por Refuerzo](https://github.com/jrguignan/Machine_Learning/tree/main/Aprendizaje_por_Refuerzo)
+
+## Límite Superior de Confianza
+
+<br>[Volver al Índice](#Índice)
+
+
+
+**Revisar:**
+-Graficas R
+-Teoria naive bayes
+-Eclat
+
 
 # Autor
 
