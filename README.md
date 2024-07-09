@@ -105,6 +105,7 @@ La trampa de inicialización se resuelve con k-means++
 **Revisar:**
 -Teoria naive bayes
 -Eclat
+-El ladron de multiples brazos
 
 
 # Autor
