@@ -2,7 +2,8 @@
 
 #apertura de archivo csv
 dataset = read.csv("c:\\Users\\jrgui\\Documents\\GitHub\\Machine_Learning\\Aprendizaje_por_Refuerzo\\datasets\\Ads_CTR_Optimisation.csv")
-#Datos de 10 anuncios
+# El dataset es de 10 anuncios y 
+# sobre 10 000 usuarios que hacen click sobre el anuncio
 
 
 
