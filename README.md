@@ -103,7 +103,6 @@ La trampa de inicialización se resuelve con k-means++
 
 
 **Revisar:**
--Graficas R
 -Teoria naive bayes
 -Eclat
 
