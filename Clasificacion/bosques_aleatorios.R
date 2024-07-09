@@ -39,7 +39,7 @@ y_pred = predict(clasificador, newdata = dataset_test[,-3])
 
 print(y_pred)
 
-#Crear matriz de confucion
+#Crear matriz de confusion
 cm = table(dataset_test[, 3], y_pred)
 
 print(cm)
@@ -54,44 +54,152 @@ text(clasificador)
 
 
 
-#Visualizacion del conjunto de entrenamiento
+#Visualizacion de los datos del conjunto de entrenamiento
 
-# Suponiendo que tienes instalado ElenStatLearn
-library(ElemStatLearn)
+library(ggplot2)
+library(reshape2)
+
+
+# Crear malla para la gráfica
 set = dataset_train
-X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 1)
-X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 500)
-grid_set = expand.grid(X1, X2)
-colnames(grid_set) = c('Age', 'EstimatedSalary')
+x1_seq <- seq(min(set$Age) - 1, max(set$Age) + 1, by = 1)
+x2_seq <- seq(min(set$EstimatedSalary) - 500, max(set$EstimatedSalary) + 500, by = 500)
+grid <- expand.grid(Age = x1_seq, EstimatedSalary = x2_seq)
 
-y_grid =  predict(clasificador, newdata = dataset_train[,-3],
-                  type = "class")
-plot(set[, -3],
-     main = 'Clasificación (Conjunto de Entrenamiento)',
-     xlab = 'Edad', ylab = 'Sueldo Estimado',
-     xlim = range(X1), ylim = range(X2))
-contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
-points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
-points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+# Predecir los valores para la malla usando el clasificador
+grid$Prediction <- predict(clasificador, newdata = grid)
+
+# Asegurarse de que Purchased sea un factor con niveles 0 y 1
+set$Purchased <- factor(dataset_train$Purchased, levels = c(0, 1))
+
+# Predecir los valores para el conjunto de entrenamiento
+set$TrueClass <- predict(clasificador, newdata = dataset_train[,-3])
+
+# Crear la gráfica
+ggplot() +
+  geom_tile(data = grid, aes(x = Age, y = EstimatedSalary, fill = as.factor(Prediction)), alpha = 0.75) +
+  geom_point(data = set, aes(x = Age, y = EstimatedSalary, color = Purchased), size = 2) +
+  scale_fill_manual(values = c("0" = "tomato", "1" = "springgreen3"), name = "Predicción") +
+  scale_color_manual(values = c("0" = "red4", "1" = "green4"), name = "Clases") +
+  labs(title = "Clasificador (Conjunto de Entrenamiento)", x = "Edad", y = "Sueldo Estimado") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(fill = guide_legend(title = "Predicción"), color = guide_legend(title = "Clases"))
 
 
-# Visualización del conjunto de testing
+
+
+#Visualizacion de los datos del conjunto de prueba
+
+# Crear malla para la gráfica
 set = dataset_test
-X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 1)
-X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 500)
-grid_set = expand.grid(X1, X2)
-colnames(grid_set) = c('Age', 'EstimatedSalary')
+x1_seq <- seq(min(set$Age) - 1, max(set$Age) + 1, by = 1)
+x2_seq <- seq(min(set$EstimatedSalary) - 500, max(set$EstimatedSalary) + 500, by = 500)
+grid <- expand.grid(Age = x1_seq, EstimatedSalary = x2_seq)
 
-y_grid =  predict(clasificador, newdata = dataset_test[,-3],
-                  type = "class")
-plot(set[, -3],
-     main = 'Clasificación (Conjunto de Testing)',
-     xlab = 'Edad', ylab = 'Sueldo Estimado',
-     xlim = range(X1), ylim = range(X2))
-contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
-points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
-points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+# Predecir los valores para la malla usando el clasificador
+grid$Prediction <- predict(clasificador, newdata = grid)
 
+# Asegurarse de que Purchased sea un factor con niveles 0 y 1
+set$Purchased <- factor(dataset_test$Purchased, levels = c(0, 1))
+
+# Predecir los valores para el conjunto de entrenamiento
+set$TrueClass <- predict(clasificador, newdata = dataset_test)
+
+# Crear la gráfica
+ggplot() +
+  geom_tile(data = grid, aes(x = Age, y = EstimatedSalary, fill = as.factor(Prediction)), alpha = 0.75) +
+  geom_point(data = set, aes(x = Age, y = EstimatedSalary, color = Purchased), size = 2) +
+  scale_fill_manual(values = c("0" = "tomato", "1" = "springgreen3"), name = "Predicción") +
+  scale_color_manual(values = c("0" = "red4", "1" = "green4"), name = "Clases") +
+  labs(title = "Clasificador (Conjunto de Prueba)", x = "Edad", y = "Sueldo Estimado") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(fill = guide_legend(title = "Predicción"), color = guide_legend(title = "Clases"))  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Visualizacion de los datos predichos
+
+library(ggplot2)
+library(reshape2)
+
+#Visualizacion del dataset de entrenamiento
+
+# Crear malla para la gráfica
+set = dataset_train
+x1_seq <- seq(min(set$Age) - 1, max(set$Age) + 1, by = 1)
+x2_seq <- seq(min(set$EstimatedSalary) - 500, max(set$EstimatedSalary) + 500, by = 500)
+grid <- expand.grid(Age = x1_seq, EstimatedSalary = x2_seq)
+
+# Predecir los valores para la malla usando el clasificador
+grid$Prediction <- predict(clasificador, newdata = grid, type = "class")
+
+# Predecir los valores para el conjunto de entrenamiento
+dataset_train$TrueClass <- predict(clasificador, newdata = dataset_train, type = "class")
+
+# Crear la gráfica
+ggplot() +
+  geom_tile(data = grid, aes(x = Age, y = EstimatedSalary, fill = as.factor(Prediction)), alpha = 0.75) +
+  geom_point(data = dataset_train, aes(x = Age, y = EstimatedSalary, color = as.factor(TrueClass)), size = 3) +
+  scale_fill_manual(values = c("0" = "tomato", "1" = "springgreen3"), name = "Predicción") +
+  scale_color_manual(values = c("0" = "red3", "1" = "green3"), name = "Clases") +
+  labs(title = "Clasificador (Conjunto de Entrenamiento)", x = "Edad", y = "Sueldo Estimado") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(fill = guide_legend(title = "Predicción"), color = guide_legend(title = "Clases"))
+
+
+#Visualizacion del dataset de prueba
+
+# Crear malla para la gráfica
+set = dataset_test
+x1_seq <- seq(min(set$Age) - 1, max(set$Age) + 1, by = 1)
+x2_seq <- seq(min(set$EstimatedSalary) - 500, max(set$EstimatedSalary) + 500, by = 500)
+grid <- expand.grid(Age = x1_seq, EstimatedSalary = x2_seq)
+
+#Visualizacion del dataset de prueba
+# Crear malla para la gráfica
+set = dataset_test
+x1_seq <- seq(min(set$Age) - 1, max(set$Age) + 1, by = 1)
+x2_seq <- seq(min(set$EstimatedSalary) - 500, max(set$EstimatedSalary) + 500, by = 500)
+grid <- expand.grid(Age = x1_seq, EstimatedSalary = x2_seq)
+
+# Predecir los valores para la malla usando el clasificador
+grid$Prediction <- predict(clasificador, newdata = grid, type = "class")
+
+# Predecir los valores para el conjunto de entrenamiento
+dataset_train$TrueClass <- predict(clasificador, newdata = dataset_test, type = "class")
+
+# Crear la gráfica
+ggplot() +
+  geom_tile(data = grid, aes(x = Age, y = EstimatedSalary, fill = as.factor(Prediction)), alpha = 0.75) +
+  geom_point(data = dataset_train, aes(x = Age, y = EstimatedSalary, color = as.factor(TrueClass)), size = 3) +
+  scale_fill_manual(values = c("0" = "tomato", "1" = "springgreen3"), name = "Predicción") +
+  scale_color_manual(values = c("0" = "red3", "1" = "green3"), name = "Clases") +
+  labs(title = "Clasificador (Conjunto de Entrenamiento)", x = "Edad", y = "Sueldo Estimado") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(fill = guide_legend(title = "Predicción"), color = guide_legend(title = "Clases"))
 
 
 
