@@ -98,6 +98,8 @@ La trampa de inicialización se resuelve con k-means++
 
 ## Límite Superior de Confianza
 
+## Muestreo Thompson
+
 <br>[Volver al Índice](#Índice)
 
 
