@@ -11,6 +11,7 @@ En construccion 🚧
 * [Agrupamiento](#Agrupamiento) 
 * [Reglas de Asociación](#Reglas-de-Asociación) 
 * [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
+* [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
 
 * [Autor](#Autor)
 
@@ -102,13 +103,17 @@ La trampa de inicialización se resuelve con k-means++
 
 <br>[Volver al Índice](#Índice)
 
+# [Procesamiento de Lenguaje Natural](https://github.com/jrguignan/Machine_Learning/tree/main/Procesamiento_de_Lenguaje_Natural)
 
+
+<br>[Volver al Índice](#Índice)
 
 **Revisar:**
--Teoria naive bayes
--Eclat
--El ladron de multiples brazos
-
+-Teoria naive bayes <br>
+-Eclat <br>
+-El ladron de multiples brazos <br>
+-upper confidence bound <br>
+-muestreo thompson <br>
 
 # Autor
 
