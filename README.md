@@ -113,16 +113,14 @@ La trampa de inicialización se resuelve con k-means++
 
 ## Redes Nuronales Artificiales
 
+## Redes Nuronales Convolucionales
 
+Al ser el dataset un poco pesado se puede descargar de este link:
+[dataset-RNC](https://drive.google.com/file/d/1Kay-Ig6g2EyDBKPK0oK4UmGj8fCcifpb/view?usp=sharing)
 
 <br>[Volver al Índice](#Índice)
 
-**Revisar:**
--Teoria naive bayes <br>
--Eclat <br>
--El ladron de multiples brazos <br>
--upper confidence bound <br>
--muestreo thompson <br>
+
 
 # Autor
 
