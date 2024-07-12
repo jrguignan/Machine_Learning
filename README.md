@@ -13,6 +13,7 @@ En construccion 🚧
 * [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
 * [Redes Neuronales](#Redes-Neuronales) 
+* [Reducción de Dimensiones](#Redes-Neuronales) 
 
 * [Autor](#Autor)
 
@@ -111,16 +112,18 @@ La trampa de inicialización se resuelve con k-means++
 
 # [Redes Neuronales](https://github.com/jrguignan/Machine_Learning/tree/main/Redes_Neuronales)
 
-## Redes Nuronales Artificiales
+## Redes Neuronales Artificiales
 
-## Redes Nuronales Convolucionales
+## Redes Neuronales Convolucionales
 
 Al ser el dataset un poco pesado se puede descargar de este link:
 [dataset-RNC](https://drive.google.com/file/d/1Kay-Ig6g2EyDBKPK0oK4UmGj8fCcifpb/view?usp=sharing)
 
 <br>[Volver al Índice](#Índice)
 
+# [Reducción de Dimensiones](https://github.com/jrguignan/Machine_Learning/tree/main/Reduccion_de_Dimension)
 
+## Analisis de Componentes Principales
 
 # Autor
 
