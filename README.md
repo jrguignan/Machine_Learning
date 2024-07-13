@@ -15,6 +15,7 @@ En construccion 🚧
 * [Redes Neuronales](#Redes-Neuronales) 
 * [Reducción de Dimensiones](#Redes-Neuronales) 
 * [Selección de Modelos](#Seleccion-de-Modelos) 
+* [Gradient Boosting](#Gradient-Boosting) 
 
 * [Autor](#Autor)
 
@@ -134,10 +135,15 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 
 # [Selección de Modelos](https://github.com/jrguignan/Machine_Learning/tree/main/Seleccion_de_Modelos)
 
+
 ## K Partes Validación Cruzada
 
 ## Busqueda de Rejilla
 
+
+<br>[Volver al Índice](#Índice)
+
+# [Gradient Boosting](https://github.com/jrguignan/Machine_Learning/tree/main/Gradient_Boosting)
 
 <br>[Volver al Índice](#Índice)
 
