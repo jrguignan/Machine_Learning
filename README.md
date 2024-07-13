@@ -14,6 +14,7 @@ En construccion 🚧
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
 * [Redes Neuronales](#Redes-Neuronales) 
 * [Reducción de Dimensiones](#Redes-Neuronales) 
+* [Selección de Modelos](#Seleccion-de-Modelos) 
 
 * [Autor](#Autor)
 
@@ -126,6 +127,17 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 ## Análisis de Componentes Principales
 
 ## Análisis Discriminate Lineal
+
+## Análisis de Componentes Principales - Kernel
+
+<br>[Volver al Índice](#Índice)
+
+# [Selección de Modelos](https://github.com/jrguignan/Machine_Learning/tree/main/Seleccion_de_Modelos)
+
+## K Partes Validación Cruzada
+
+
+<br>[Volver al Índice](#Índice)
 
 # Autor
 
