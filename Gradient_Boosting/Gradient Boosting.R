@@ -2,7 +2,7 @@
 
 
 #apertura de archivo csv
-dataset = read.csv("c:\\Users\\jrgui\\Documents\\GitHub\\Machine_Learning\\Redes_Neuronales\\datasets\\Churn_Modelling.csv")
+dataset = read.csv("c:\\Users\\jrgui\\Documents\\GitHub\\Machine_Learning\\Gradient_Boosting\\datasets\\Churn_Modelling.csv")
 dataset = dataset[,4:14]
 #Datos de los clientes de un banco, 
 #queremos entrenar una red que diga si el cliente se va o se queda
