@@ -136,6 +136,8 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 
 ## K Partes Validación Cruzada
 
+## Busqueda de Rejilla
+
 
 <br>[Volver al Índice](#Índice)
 
