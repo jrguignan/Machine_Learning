@@ -123,7 +123,9 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 
 # [Reducción de Dimensiones](https://github.com/jrguignan/Machine_Learning/tree/main/Reduccion_de_Dimension)
 
-## Analisis de Componentes Principales
+## Análisis de Componentes Principales
+
+## Análisis Discriminate Lineal
 
 # Autor
 
