@@ -264,59 +264,6 @@ El modelo de Muestreo Thompson es un algoritmo de aprendizaje por refuerzo utili
 
 
 
-# [Procesamiento de Lenguaje Natural](https://github.com/jrguignan/Machine_Learning/tree/main/Procesamiento_de_Lenguaje_Natural)
-
-
-<br>[Volver al Índice](#Índice)
-
-
-
-
-# [Redes Neuronales](https://github.com/jrguignan/Machine_Learning/tree/main/Redes_Neuronales)
-
-## Redes Neuronales Artificiales
-
-## Redes Neuronales Convolucionales
-
-Al ser el dataset un poco pesado se puede descargar de este link:
-[dataset-RNC](https://drive.google.com/file/d/1Kay-Ig6g2EyDBKPK0oK4UmGj8fCcifpb/view?usp=sharing)
-
-<br>[Volver al Índice](#Índice)
-
-
-
-
-# [Reducción de Dimensiones](https://github.com/jrguignan/Machine_Learning/tree/main/Reduccion_de_Dimension)
-
-## Análisis de Componentes Principales
-
-## Análisis Discriminate Lineal
-
-## Análisis de Componentes Principales - Kernel
-
-<br>[Volver al Índice](#Índice)
-
-
-
-
-# [Selección de Modelos](https://github.com/jrguignan/Machine_Learning/tree/main/Seleccion_de_Modelos)
-
-
-## K Partes Validación Cruzada
-
-## Busqueda de Rejilla
-
-
-<br>[Volver al Índice](#Índice)
-
-
-
-
-# [Gradient Boosting](https://github.com/jrguignan/Machine_Learning/tree/main/Gradient_Boosting)
-
-<br>[Volver al Índice](#Índice)
-
-
 
 
 # Autor
