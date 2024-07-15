@@ -21,13 +21,16 @@ En construccion 🚧
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
 
-Antes de correr algún algoritmo de machine learning es de suma importancia revisar que los datos tengan las formas adecuadas, es por ello que en esta sección revisaremos varios de los factores a tener en cuenta.
+[Preprocesamietno-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Pre_Procesamiento/pre_procesamiento.ipynb) - [Preprocesamietno-R](https://github.com/jrguignan/Machine_Learning/blob/main/Pre_Procesamiento/pre_procesamiento.R)
+
+El preprocesamiento de datos es una etapa crucial en el flujo de trabajo de machine learning que involucra la limpieza y transformación de datos brutos para prepararlos para el análisis y modelado.La importancia del preprocesamiento radica en su capacidad para mejorar la calidad y la utilidad de los datos, lo cual es fundamental para el rendimiento y la precisión de los modelos de machine learning. Datos bien preprocesados pueden reducir el ruido, manejar la multicolinealidad y garantizar que los algoritmos de aprendizaje funcionen de manera más eficiente y efectiva, conduciendo a modelos más robustos y resultados más confiables.
+
+En esta sección revisaremos varios de los factores a tener en cuenta.
 
 - Datos Faltantes
 - Tratamiento de variables
+- Normalización y escalado de Datos
 - División de Datos
-- Escalado de Datos
-
 
 <br>[Volver al Índice](#Índice)
 
