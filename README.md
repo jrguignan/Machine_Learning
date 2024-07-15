@@ -11,19 +11,22 @@ En construccion 🚧
   * [Regresión Lineal Simple](#Regresión-Lineal-Simple) 
   * [Regresión Lineal Múltiple](#Regresión-Lineal-Múltiple) 
   * [Regresión Lineal Polinómica](#Regresión-Lineal-Polinómica) 
-  * [Support Vector Machine](#Support-Vector-Machine) 
-  * [Decision Tree](#Decision-Tree) 
-  * [Random Forest](#Random-Forest) 
+  * [Support Vector Machine Regresión](#Support-Vector-Machine-Regresión) 
+  * [Decision Tree Regresión](#Decision-Tree-Regresión) 
+  * [Random Forest Regresión](#Random-Forest-Regresión) 
 
 * [Clasificación](#Clasificación)
   * [Regresión Logística](#Regresión-Logística) 
   * [K Nearest Neighbors](#K-Nearest-Neighbors) 
-  * [Support Vector Machine](#Support-Vector-Machine) 
+  * [Support Vector Machine Clasificación](#Support-Vector-Machine-Clasificación) 
   * [Naive Bayes](#Naive-Bayes) 
-  * [Decision Tree](#Decision-Tree) 
-  * [Random Forest](#Random-Forest)  
+  * [Decision Tree Clasificación](#Decision-Tree-Clasificación) 
+  * [Random Forest Clasificación](#Random-Forest-Clasificación)  
 
 * [Agrupamiento](#Agrupamiento) 
+  * [K Means](#K-Means) 
+  * [Agrupamiento Jerárquico](#Agrupamiento-Jerárquico) 
+
 * [Reglas de Asociación](#Reglas-de-Asociación) 
 * [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
@@ -94,7 +97,7 @@ Estos métodos de construccion permiten ir ajustando el modelo a las variables i
 El modelo de regresión lineal polinómica es una variante de la regresión lineal que permite capturar relaciones no lineales entre las variables independientes y la variable dependiente al incluir términos polinómicos (cuadráticos, cúbicos, etc.) de las variables independientes. Representado por la ecuación 
 𝑦=𝑏0+𝑏1𝑥+𝑏2𝑥^2+...+𝑏𝑛𝑥^𝑛, este modelo es importante porque proporciona una mayor flexibilidad para ajustar y predecir datos que no siguen una tendencia lineal, mejorando así la precisión y el ajuste del modelo. 
 
-## Support Vector Machine
+## Support Vector Machine Regresión
 
 [Support Vector Machine-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_SVM.ipynb) - [Support Vector Machine-R](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_SVM.R)
 
@@ -103,19 +106,23 @@ Los modelos de Support Vector Machine (SVM) en regresión, conocidos como Suppor
 
 <br>[Volver al Índice](#Índice)
 
-## Decision Tree
+## Decision Tree Regresión
 
 [Decision Tree-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_arboles_decision.ipynb) - [Decision Tree-R](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_arboles_decision.R)
 
 Los modelos de Decision Tree en regresión son métodos no paramétricos que dividen los datos en segmentos basándose en valores de características, creando un árbol de decisiones donde cada hoja representa un valor de predicción. Cada nodo en el árbol divide los datos en subconjuntos más homogéneos en cuanto a la variable objetivo. La importancia de los Decision Trees en regresión radica en su simplicidad, interpretabilidad y capacidad para capturar relaciones no lineales y complejas entre las características y la variable objetivo. Son robustos ante datos faltantes y permiten la incorporación de características categóricas sin necesidad de codificación. Además, al ser la base de métodos avanzados como Random Forest y Gradient Boosting, los Decision Trees son fundamentales para mejorar la precisión y reducir el sobreajuste en los modelos predictivos.
 
-## Random Forest
+## Random Forest Regresión
 
 [Random Forest-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_bosques_aleatorios.ipynb) - [Random Forest-R](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_bosques_aleatorios.R)
 
 Un modelo de regresión de Random Forest es una técnica de aprendizaje automático que utiliza múltiples árboles de decisión para realizar predicciones más precisas. Este método consiste en construir numerosos árboles de decisión en el proceso de entrenamiento y obtener el promedio de sus predicciones para la regresión. La importancia de los modelos de Random Forest radica en su capacidad para manejar grandes cantidades de datos y características sin requerir demasiada preparación de datos. Además, son robustos frente al sobreajuste, ya que la combinación de múltiples árboles de decisión reduce la varianza del modelo, proporcionando resultados más confiables y estables.
 
 <br>[Volver al Índice](#Índice)
+
+
+
+
 
 # [Clasificación](https://github.com/jrguignan/Machine_Learning/tree/main/Clasificacion)
 
@@ -140,7 +147,7 @@ La importancia del modelo K-NN radica en su simplicidad conceptual y su eficacia
 
 <br>[Volver al Índice](#Índice)
 
-## Support Vector Machine
+## Support Vector Machine Clasificación
 
 [Support Vector Machine-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Clasificacion/maquinas_soporte_vectorial.ipynb) - [Support Vector Machine-R](https://github.com/jrguignan/Machine_Learning/blob/main/Clasificacion/maquinas_soporte_vectorial.R)
 
@@ -158,14 +165,14 @@ La importancia de Naive Bayes radica en su simplicidad, eficiencia y capacidad p
 
 <br>[Volver al Índice](#Índice)
 
-## Decision Tree
+## Decision Tree Clasificación
 
 [Decision Tree-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Clasificacion/arboles_decision.ipynb) - [Decision Tree-R](https://github.com/jrguignan/Machine_Learning/blob/main/Clasificacion/arboles_decision.R)
 
 
 Los árboles de decisión son modelos de aprendizaje automático que estructuran decisiones basadas en múltiples niveles de condiciones lógicas. En esencia, dividen el conjunto de datos en subconjuntos más pequeños mediante reglas simples sobre las características, que eventualmente llevan a la predicción de la variable objetivo. La importancia de los árboles de decisión radica en su capacidad para manejar datos no lineales y complejos, así como su capacidad para capturar interacciones entre características que otros modelos lineales podrían pasar por alto. Además, son fáciles de interpretar y visualizar, lo que ayuda a los analistas a comprender cómo se toman las decisiones dentro del modelo. Sin embargo, los árboles de decisión pueden ser propensos al sobreajuste si no se manejan correctamente, lo que puede llevar a una falta de generalización en datos nuevos. A pesar de esto, su versatilidad y capacidad para capturar patrones complejos los hacen herramientas valiosas en una amplia gama de aplicaciones de clasificación y predicción.
 
-## Random Forest
+## Random Forest Clasificación
 
 [Random Forest-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Clasificacion/bosques_aleatorios.ipynb) - [Random Forest-R](https://github.com/jrguignan/Machine_Learning/blob/main/Clasificacion/bosques_aleatorios.R)
 
@@ -173,17 +180,36 @@ Los modelos de Random Forest son una extensión poderosa de los árboles de deci
 
 <br>[Volver al Índice](#Índice)
 
+
+
+
+
 # [Agrupamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Agrupamiento)
 
-## K Medias
+El agrupamiento son técnicas que consiste en dividir un conjunto de datos en grupos homogéneos o clústeres, donde los elementos dentro de cada grupo son más similares entre sí que con los elementos de otros grupos. Es útil para descubrir patrones ocultos, segmentar datos para análisis específicos y simplificar conjuntos de datos complejos mediante la identificación de estructuras intrínsecas.
 
-La trampa de inicialización se resuelve con k-means++
+## K Means
 
-### WCSS - Método del Codo
+[K Means-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Agrupamiento/k_medias.ipynb) - [K Means-R](https://github.com/jrguignan/Machine_Learning/blob/main/Agrupamiento/k_medias.R)
 
-## Agrupamiento Jerarquico
+El modelo de K-Means es un algoritmo de agrupamiento ampliamente utilizado en el campo del aprendizaje automático y la minería de datos. Su objetivo principal es dividir un conjunto de datos en grupos o clústeres basados en similitudes entre las muestras. Utiliza la distancia euclidiana para asignar cada punto de datos al clúster más cercano, donde el número de clústeres (K) se especifica previamente. La importancia del algoritmo de K-Means radica en su capacidad para identificar estructuras ocultas o patrones en conjuntos de datos no etiquetados de manera eficiente y escalable. Esto permite realizar análisis exploratorios de datos, segmentar clientes, detectar anomalías, entre otras aplicaciones, sin necesidad de etiquetas predefinidas. Además, K-Means es relativamente fácil de implementar y entender, lo que lo convierte en una herramienta poderosa para la exploración inicial de datos y la preparación para modelos de aprendizaje supervisado más avanzados.
+
+- WCSS - Método del Codo
+
+El WCSS (Within-Cluster Sum of Squares) es una métrica utilizada para determinar el número óptimo de clústeres en un algoritmo de agrupamiento, como K-Means. Representa la suma de las distancias euclidianas al cuadrado de cada punto de datos dentro de su clúster respectivo.
+  
+## Agrupamiento Jerárquico
+
+[Agrupamiento Jerárquico-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Agrupamiento/agrupamiento_jerarquico.ipynb) - [Agrupamiento Jerárquico-R](https://github.com/jrguignan/Machine_Learning/blob/main/Agrupamiento/agrupamiento_jerarquico.R)
+
+
+Los modelos de agrupamiento jerárquico son técnicas que agrupan datos en una estructura jerárquica, formando clústeres anidados en lugar de asignar cada punto de datos a un único clúster. Esto permite identificar relaciones complejas entre grupos dentro de los datos, facilitando la exploración y comprensión de patrones emergentes. La importancia de estos modelos radica en su capacidad para manejar conjuntos de datos donde la estructura subyacente puede ser desconocida o variar en complejidad, ofreciendo flexibilidad en la interpretación de la estructura de agrupamiento.
 
 <br>[Volver al Índice](#Índice)
+
+
+
+
 
 # [Reglas de Asociación](https://github.com/jrguignan/Machine_Learning/tree/main/Reglas_de_Asociacion)
 
@@ -194,6 +220,8 @@ La trampa de inicialización se resuelve con k-means++
 
 <br>[Volver al Índice](#Índice)
 
+
+
 # [Aprendizaje por Refuerzo](https://github.com/jrguignan/Machine_Learning/tree/main/Aprendizaje_por_Refuerzo)
 
 ## Límite Superior de Confianza
@@ -202,10 +230,16 @@ La trampa de inicialización se resuelve con k-means++
 
 <br>[Volver al Índice](#Índice)
 
+
+
+
 # [Procesamiento de Lenguaje Natural](https://github.com/jrguignan/Machine_Learning/tree/main/Procesamiento_de_Lenguaje_Natural)
 
 
 <br>[Volver al Índice](#Índice)
+
+
+
 
 # [Redes Neuronales](https://github.com/jrguignan/Machine_Learning/tree/main/Redes_Neuronales)
 
@@ -218,6 +252,9 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 
 <br>[Volver al Índice](#Índice)
 
+
+
+
 # [Reducción de Dimensiones](https://github.com/jrguignan/Machine_Learning/tree/main/Reduccion_de_Dimension)
 
 ## Análisis de Componentes Principales
@@ -227,6 +264,9 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 ## Análisis de Componentes Principales - Kernel
 
 <br>[Volver al Índice](#Índice)
+
+
+
 
 # [Selección de Modelos](https://github.com/jrguignan/Machine_Learning/tree/main/Seleccion_de_Modelos)
 
@@ -238,9 +278,15 @@ Al ser el dataset un poco pesado se puede descargar de este link:
 
 <br>[Volver al Índice](#Índice)
 
+
+
+
 # [Gradient Boosting](https://github.com/jrguignan/Machine_Learning/tree/main/Gradient_Boosting)
 
 <br>[Volver al Índice](#Índice)
+
+
+
 
 # Autor
 
