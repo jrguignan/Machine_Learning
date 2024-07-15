@@ -28,6 +28,9 @@ En construccion 🚧
   * [Agrupamiento Jerárquico](#Agrupamiento-Jerárquico) 
 
 * [Reglas de Asociación](#Reglas-de-Asociación) 
+  * [Apriori](#Apriori) 
+  * [Eclat](#Eclat) 
+
 * [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
 * [Redes Neuronales](#Redes-Neuronales) 
@@ -37,7 +40,9 @@ En construccion 🚧
 
 * [Autor](#Autor)
 
-*NOTA:* Se usó rutas absolutas por lo que debes verificar el patch que usarás al correr los códigos.
+
+*NOTA:* Se usó rutas absolutas por lo que debes verificar el path que usarás al correr los códigos.
+
 
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
 
@@ -214,11 +219,24 @@ Los modelos de agrupamiento jerárquico son técnicas que agrupan datos en una e
 # [Reglas de Asociación](https://github.com/jrguignan/Machine_Learning/tree/main/Reglas_de_Asociacion)
 
 
-## A Priori
+Las reglas de asociación en machine learning son métodos utilizados para identificar relaciones significativas entre variables en grandes bases de datos. Estas reglas ayudan a descubrir patrones interesantes, como la probabilidad de que ciertos productos se compren juntos en un supermercado. Son especialmente útiles en el análisis de mercados, recomendaciones de productos y minería de datos, proporcionando insights valiosos sobre el comportamiento de los clientes y mejorando la toma de decisiones comerciales.
+
+## Apriori
+
+[Apriori-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Reglas_de_Asociacion/a_priori.ipynb) - [A Priori-R](https://github.com/jrguignan/Machine_Learning/blob/main/Reglas_de_Asociacion/a_priori.R)
+
+El modelo Apriori es un algoritmo que se utiliza para identificar conjuntos de ítems frecuentemente asociados en grandes bases de datos. Este algoritmo es importante porque ayuda a descubrir relaciones ocultas en los datos, como la probabilidad de que ciertos productos se compren juntos. Al generar reglas de asociación basadas en la frecuencia de aparición de los ítems, Apriori permite a los negocios mejorar sus estrategias de marketing, optimizar el diseño de tiendas y realizar recomendaciones personalizadas a los clientes, lo que en última instancia mejora la satisfacción del cliente y aumenta las ventas.
 
 ## Eclat
 
+[Eclat-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Reglas_de_Asociacion/eclat.ipynb) - [Eclat-R](https://github.com/jrguignan/Machine_Learning/blob/main/Reglas_de_Asociacion/eclat.R)
+
+El modelo Eclat es un algoritmo eficiente para encontrar conjuntos frecuentes de ítems en bases de datos grandes. A diferencia de Apriori, Eclat utiliza un enfoque basado en la intersección de transacciones, lo que lo hace más rápido en ciertos escenarios. La importancia de Eclat radica en su capacidad para descubrir relaciones significativas entre ítems de manera eficiente, lo que es esencial para tareas como la recomendación de productos, el análisis de cesta de la compra y la optimización de inventarios. Al identificar patrones ocultos y asociaciones entre ítems, Eclat ayuda a las empresas a tomar decisiones informadas y a mejorar sus estrategias de marketing y ventas.
+
 <br>[Volver al Índice](#Índice)
+
+
+
 
 
 
