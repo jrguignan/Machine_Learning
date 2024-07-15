@@ -8,12 +8,12 @@ En construccion 🚧
 * [Pre Procesamiento](#Pre-Procesamiento) 
 
 * [Regresión](#Regresión) 
- * [Regresión Lineal Simple](#Regresión-Lineal-Simple) 
- * [Regresión Lineal Múltiple](#Regresión-Lineal-Múltiple) 
- * [Regresión Lineal Polinómica](#Regresión-Lineal-Polinómica) 
- * [Support Vector Machine (SVM)](#Support-Vector-Machine-(SVM)) 
- * [Decision Tree](#Decision-Tree) 
- * [Random Forest](#Random-Forest) 
+  * [Regresión Lineal Simple](#Regresión-Lineal-Simple) 
+  * [Regresión Lineal Múltiple](#Regresión-Lineal-Múltiple) 
+  * [Regresión Lineal Polinómica](#Regresión-Lineal-Polinómica) 
+  * [Support Vector Machine](#Support-Vector-Machine) 
+  * [Decision Tree](#Decision-Tree) 
+  * [Random Forest](#Random-Forest) 
 
 * [Clasificación](#Clasificación) 
 * [Agrupamiento](#Agrupamiento) 
@@ -46,6 +46,8 @@ En esta sección se revisarán varios de los factores a tener en cuenta.
 
 # [Regresión](https://github.com/jrguignan/Machine_Learning/tree/main/Regresion)
 
+Es un método estadístico y de aprendizaje automático utilizado para modelar la relación entre una variable dependiente y una o más variables independientes. En términos simples, la regresión permite predecir el valor de una variable basada en los valores de otras variables, identificando y cuantificando las conexiones entre ellas. Este enfoque es fundamental en diversas aplicaciones
+
 Para poder aplicar un modelo de regresión lineal se debe tener en cuenta:
 - Linealidad
 - Homocedasticidad
@@ -75,6 +77,8 @@ Método de cosntruccion del modelo final:
 
 Estos métodos de construccion permiten ir ajustando el modelo a las variables independiente que nos pueden producir un mejor resultado. 
 
+<br>[Volver al Índice](#Índice)
+
 ## Regresión Lineal Polinómica
 
 [Regresion Lineal Polinómica-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_lineal_polinomica.ipynb) - [Regresion Lineal Polinómica-R](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_lineal_polinomica.R)
@@ -83,12 +87,14 @@ Estos métodos de construccion permiten ir ajustando el modelo a las variables i
 El modelo de regresión lineal polinómica es una variante de la regresión lineal que permite capturar relaciones no lineales entre las variables independientes y la variable dependiente al incluir términos polinómicos (cuadráticos, cúbicos, etc.) de las variables independientes. Representado por la ecuación 
 𝑦=𝑏0+𝑏1𝑥+𝑏2𝑥^2+...+𝑏𝑛𝑥^𝑛, este modelo es importante porque proporciona una mayor flexibilidad para ajustar y predecir datos que no siguen una tendencia lineal, mejorando así la precisión y el ajuste del modelo. 
 
-## Support Vector Machine (SVM)
+## Support Vector Machine
 
 [Support Vector Machine-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_SVM.ipynb) - [Support Vector Machine-R](https://github.com/jrguignan/Machine_Learning/blob/main/Regresion/regresion_SVM.R)
 
 
 Los modelos de Support Vector Machine (SVM) en regresión, conocidos como Support Vector Regression (SVR), son una técnica que busca encontrar la función que devuelva el mínimo error posible, manteniendo un margen de tolerancia 𝜖. SVR utiliza un enfoque similar al de clasificación SVM, creando un tubo alrededor de la función objetivo donde las desviaciones menores a 𝜖 no se consideran como errores. La importancia de SVR radica en su capacidad para manejar grandes cantidades de datos y su eficacia en problemas de alta dimensionalidad. Además, SVR es robusto ante outliers y es capaz de modelar relaciones complejas no lineales mediante el uso de kernels, lo que lo convierte en una herramienta poderosa para tareas de predicción.
+
+<br>[Volver al Índice](#Índice)
 
 ## Decision Tree
 
