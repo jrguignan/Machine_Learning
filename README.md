@@ -242,9 +242,22 @@ El modelo Eclat es un algoritmo eficiente para encontrar conjuntos frecuentes de
 
 # [Aprendizaje por Refuerzo](https://github.com/jrguignan/Machine_Learning/tree/main/Aprendizaje_por_Refuerzo)
 
-## Límite Superior de Confianza
+
+El aprendizaje por refuerzo es una técnica en la que un agente aprende a tomar decisiones secuenciales en un entorno, optimizando su comportamiento a través de recompensas y castigos. A medida que el agente interactúa con el entorno, recibe feedback en forma de recompensas (positivas o negativas) basadas en sus acciones, lo que le permite ajustar su estrategia para maximizar la recompensa acumulada a largo plazo. Este enfoque es crucial en aplicaciones como juegos, robótica y control autónomo, donde las decisiones deben adaptarse dinámicamente para lograr objetivos específicos.
+
+## Upper Confidence Bound
+
+[Upper Confidence Bound-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Aprendizaje_por_Refuerzo/limite_superior_de_confianza.ipynb) - [Upper Confidence Bound-R](https://github.com/jrguignan/Machine_Learning/blob/main/Aprendizaje_por_Refuerzo/limite_superior_de_confianza.R)
+
+
+El modelo de Upper Confidence Bound (UCB) es un algoritmo de aprendizaje por refuerzo utilizado principalmente en problemas de multi-armed bandit, donde un agente debe elegir entre varias opciones con recompensas inciertas. UCB equilibra la exploración y la explotación al seleccionar opciones que tienen la mayor "confianza superior", es decir, aquellas que potencialmente ofrecen la mejor recompensa con mayor certeza. Este enfoque es importante porque permite al agente aprender de manera eficiente en entornos desconocidos, optimizando sus decisiones a lo largo del tiempo y minimizando las pérdidas potenciales, lo que es crucial en aplicaciones como la optimización de anuncios y la gestión de inventarios.
 
 ## Muestreo Thompson
+
+[Muestreo Thompson-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Aprendizaje_por_Refuerzo/muestreo_thompson.ipynb) - [Muestreo Thompson-R](https://github.com/jrguignan/Machine_Learning/blob/main/Aprendizaje_por_Refuerzo/muestreo_thompson.R)
+
+
+El modelo de Muestreo Thompson es un algoritmo de aprendizaje por refuerzo utilizado para abordar problemas de multi-armed bandit, donde un agente debe elegir entre varias acciones con recompensas inciertas. Este enfoque se basa en la probabilidad bayesiana para seleccionar acciones de acuerdo con su probabilidad de ser la mejor opción, lo que permite un equilibrio dinámico entre la exploración de nuevas acciones y la explotación de acciones conocidas con altas recompensas. La importancia del Muestreo Thompson radica en su capacidad para adaptarse a entornos cambiantes y optimizar las decisiones del agente de manera eficiente, lo que es crucial en aplicaciones como la publicidad en línea, la recomendación de contenidos y la gestión de recursos.
 
 <br>[Volver al Índice](#Índice)
 
