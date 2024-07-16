@@ -334,7 +334,7 @@ El Análisis de Componentes Principales (PCA) es una técnica que transforma un 
 
 El Análisis Discriminante Lineal (LDA) es una técnica de reducción de dimensionalidad y clasificación que busca encontrar una combinación lineal de características que mejor separen dos o más clases de objetos o eventos. La importancia del LDA radica en su capacidad para maximizar la separabilidad entre categorías, mejorando la precisión de los modelos de clasificación y facilitando la interpretación y visualización de datos en problemas donde la diferenciación de clases es crucial.
 
-## Análisis de Componentes Principales  Kernel
+## Análisis de Componentes Principales Kernel
 
 [Análisis de Componentes Principales - Kernel-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_componentes_principales-kernel.ipynb) - [Análisis de Componentes Principales - Kernel-R](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_componentes_principales-kernel.R)
 
