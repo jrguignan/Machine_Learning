@@ -33,7 +33,7 @@ En construccion 🚧
 
 * [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
   * [Upper Confidence Bound](#Upper-Confidence-Bound) 
-  * [Muestreo Thompson](#Muestreo Thompson) 
+  * [Muestreo Thompson](#Muestreo-Thompson) 
 
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
 
@@ -47,6 +47,9 @@ En construccion 🚧
   * [Análisis de Componentes Principales Kernel](#Análisis-de-Componentes-Principales-Kernel) 
 
 * [Selección de Modelos](#Seleccion-de-Modelos) 
+  * [K Fold Cross Validation](#K-Fold-Cross-Validation) 
+  * [Grid Search](#Grid-Search) 
+
 * [Gradient Boosting](#Gradient-Boosting) 
 
 * [Autor](#Autor)
@@ -340,6 +343,26 @@ El Análisis de Componentes Principales con Kernel (KPCA) es una extensión no l
 
 <br>[Volver al Índice](#Índice)
 
+
+
+
+# [Selección de Modelos](https://github.com/jrguignan/Machine_Learning/tree/main/Seleccion_de_Modelos)
+
+La selección de modelos se refiere al proceso de elegir el algoritmo y la configuración óptima que mejor se ajuste a los datos y al problema específico que se está abordando. Esto implica evaluar y comparar diferentes modelos en función de métricas de rendimiento como precisión, recall, y F1-score, entre otras. Es crucial porque permite identificar el modelo más adecuado para obtener predicciones precisas y confiables, optimizando así el rendimiento del sistema y mejorando la toma de decisiones basadas en datos.
+
+## K Fold Cross Validation
+
+[K Fold Cross Validation-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Seleccion_de_Modelos/kpartes_validacion_cruzada.ipynb) - [K Fold Cross Validation-R](https://github.com/jrguignan/Machine_Learning/blob/main/Seleccion_de_Modelos/kpartes_validacion_cruzada.R)
+
+El K-Fold Cross Validation es una técnica de validación utilizada  para evaluar la capacidad de generalización de un modelo. Consiste en dividir el conjunto de datos en K subconjuntos (folds) de igual tamaño. El modelo se entrena K veces, cada vez utilizando K-1 folds para entrenar y el fold restante para validar. La importancia de esta técnica radica en su capacidad para proporcionar una estimación más robusta y fiable del rendimiento del modelo, mitigando problemas de sobreajuste y proporcionando una evaluación más completa del modelo con diferentes particiones de los datos.
+
+## Grid Search
+
+[Grid Search-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Seleccion_de_Modelos/busqueda_rejilla.ipynb) - [Grid Search-R](https://github.com/jrguignan/Machine_Learning/blob/main/Seleccion_de_Modelos/busqueda_rejilla.R)
+
+El Grid Search es una técnica de optimización de hiperparámetros que implica probar exhaustivamente todas las combinaciones posibles de un conjunto predefinido de parámetros para encontrar la mejor configuración para un modelo. Se realiza una búsqueda en una "cuadrícula" de parámetros, evaluando el rendimiento del modelo para cada combinación mediante validación cruzada. Su importancia radica en su capacidad para identificar la mejor configuración de hiperparámetros, mejorando así el rendimiento y la precisión del modelo en nuevas predicciones.
+
+<br>[Volver al Índice](#Índice)
 
 
 
