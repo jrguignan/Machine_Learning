@@ -32,7 +32,11 @@ En construccion 🚧
   * [Eclat](#Eclat) 
 
 * [Aprendizaje por Refuerzo](#Aprendizaje-por-Refuerzo) 
+  * [Upper Confidence Bound](#Upper-Confidence-Bound) 
+  * [Muestreo Thompson](#Muestreo Thompson) 
+
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
+
 * [Redes Neuronales](#Redes-Neuronales) 
 * [Reducción de Dimensiones](#Redes-Neuronales) 
 * [Selección de Modelos](#Seleccion-de-Modelos) 
@@ -258,6 +262,20 @@ El modelo de Upper Confidence Bound (UCB) es un algoritmo de aprendizaje por ref
 
 
 El modelo de Muestreo Thompson es un algoritmo de aprendizaje por refuerzo utilizado para abordar problemas de multi-armed bandit, donde un agente debe elegir entre varias acciones con recompensas inciertas. Este enfoque se basa en la probabilidad bayesiana para seleccionar acciones de acuerdo con su probabilidad de ser la mejor opción, lo que permite un equilibrio dinámico entre la exploración de nuevas acciones y la explotación de acciones conocidas con altas recompensas. La importancia del Muestreo Thompson radica en su capacidad para adaptarse a entornos cambiantes y optimizar las decisiones del agente de manera eficiente, lo que es crucial en aplicaciones como la publicidad en línea, la recomendación de contenidos y la gestión de recursos.
+
+<br>[Volver al Índice](#Índice)
+
+
+
+
+# [Procesamiento de Lenguaje Natural](https://github.com/jrguignan/Machine_Learning/tree/main/Procesamiento_de_Lenguaje_Natural)
+
+
+El Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) es una rama de la inteligencia artificial que se enfoca en la interacción entre las computadoras y el lenguaje humano, permitiendo a las máquinas entender, interpretar y generar lenguaje de manera que sea valiosa. Su importancia radica en su capacidad para automatizar y mejorar tareas que implican el lenguaje, como la traducción automática, la generación de resúmenes, la búsqueda de información y el análisis de sentimientos, facilitando así la comunicación y el acceso a la información a escala global.
+
+[LNP-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Procesamiento_de_Lenguaje_Natural/pln.ipynb) - [LNP-R](https://github.com/jrguignan/Machine_Learning/blob/main/Procesamiento_de_Lenguaje_Natural/pln.R)
+
+
 
 <br>[Volver al Índice](#Índice)
 
