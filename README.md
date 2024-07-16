@@ -42,7 +42,9 @@ En construccion 🚧
   * [Redes Neuronales Convolucionales](#Redes-Neuronales-Convolucionales) 
 
 * [Reducción de Dimensiones](#Redes-Neuronales) 
-* [Reducción de Dimensiones](#Redes-Neuronales) 
+  * [Análisis de Componentes Principales](#Análisis-de-Componentes-Principales) 
+  * [Análisis Discriminate Lineal](#Análisis-Discriminate-Lineal) 
+  * [Análisis de Componentes Principales Kernel](#Análisis-de-Componentes-Principales-Kernel) 
 
 * [Selección de Modelos](#Seleccion-de-Modelos) 
 * [Gradient Boosting](#Gradient-Boosting) 
@@ -309,6 +311,34 @@ Al ser el dataset pesado, no se decidión por un medio alterno y  se puede desca
 
 <br>[Volver al Índice](#Índice)
 
+
+
+
+# [Reducción de Dimensiones](https://github.com/jrguignan/Machine_Learning/tree/main/Reduccion_de_Dimension)
+
+
+La reducción de dimensiones es una técnica en machine learning y análisis de datos que busca disminuir el número de variables en un conjunto de datos mientras se conserva la mayor cantidad de información posible. Su importancia radica en la capacidad de simplificar modelos, mejorar la visualización de datos y aumentar la eficiencia computacional, lo cual facilita el procesamiento y análisis de grandes volúmenes de datos.
+
+## Análisis de Componentes Principales
+
+[Análisis de Componentes Principales-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_componentes_principales.ipynb) - [Análisis de Componentes Principales-R](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_componentes_principales.R)
+
+El Análisis de Componentes Principales (PCA) es una técnica que transforma un conjunto de variables posiblemente correlacionadas en un conjunto de variables no correlacionadas llamadas componentes principales. Estos componentes retienen la mayor parte de la variabilidad presente en los datos originales. La importancia del PCA radica en su capacidad para simplificar conjuntos de datos complejos, mejorar la eficiencia computacional y facilitar la visualización y el análisis, permitiendo la identificación de patrones y relaciones subyacentes en los datos.
+
+## Análisis Discriminate Lineal
+
+[Análisis Discriminate Lineal-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_discriminante_lineal.ipynb) - [Análisis Discriminate Lineal-R](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_discriminante_lineal.R)
+
+El Análisis Discriminante Lineal (LDA) es una técnica de reducción de dimensionalidad y clasificación que busca encontrar una combinación lineal de características que mejor separen dos o más clases de objetos o eventos. La importancia del LDA radica en su capacidad para maximizar la separabilidad entre categorías, mejorando la precisión de los modelos de clasificación y facilitando la interpretación y visualización de datos en problemas donde la diferenciación de clases es crucial.
+
+## Análisis de Componentes Principales  Kernel
+
+[Análisis de Componentes Principales - Kernel-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_componentes_principales-kernel.ipynb) - [Análisis de Componentes Principales - Kernel-R](https://github.com/jrguignan/Machine_Learning/blob/main/Reduccion_de_Dimension/analisis_componentes_principales-kernel.R)
+
+
+El Análisis de Componentes Principales con Kernel (KPCA) es una extensión no lineal del Análisis de Componentes Principales (PCA), que utiliza funciones kernel para proyectar datos en un espacio de mayor dimensión, permitiendo capturar relaciones no lineales entre las variables. La importancia del KPCA radica en su capacidad para mejorar la reducción de dimensionalidad y la extracción de características en conjuntos de datos complejos, lo que resulta en una mejor representación y clasificación de los datos en aplicaciones de machine learning.
+
+<br>[Volver al Índice](#Índice)
 
 
 
