@@ -367,6 +367,14 @@ El Grid Search es una técnica de optimización de hiperparámetros que implica 
 
 
 
+# [Gradient Boosting](https://github.com/jrguignan/Machine_Learning/tree/main/Gradient_Boosting)
+
+[Gradient Boosting-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Gradient_Boosting/gradient_boosting.ipynb) - [Gradient Boosting-R](https://github.com/jrguignan/Machine_Learning/blob/main/Gradient_Boosting/gradient_boosting.R)
+
+El Gradient Boosting es una técnica que crea un modelo predictivo a partir de una serie de modelos más simples, generalmente árboles de decisión. Cada modelo intenta corregir los errores del modelo anterior, mejorando progresivamente la precisión del conjunto. Su importancia radica en su capacidad para manejar datos complejos y proporcionar predicciones altamente precisas, siendo particularmente útil en competiciones y aplicaciones de clasificación y regresión.
+
+<br>[Volver al Índice](#Índice)
+
 
 
 # Autor
