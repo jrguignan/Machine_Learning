@@ -38,7 +38,12 @@ En construccion 🚧
 * [Procesamiento de Lenguaje Natural](#Procesamiento-de-Lenguaje-Natural) 
 
 * [Redes Neuronales](#Redes-Neuronales) 
+  * [Redes Neuronales Artificiales](#Redes-Neuronales-Artificiales) 
+  * [Redes Neuronales Convolucionales](#Redes-Neuronales-Convolucionales) 
+
 * [Reducción de Dimensiones](#Redes-Neuronales) 
+* [Reducción de Dimensiones](#Redes-Neuronales) 
+
 * [Selección de Modelos](#Seleccion-de-Modelos) 
 * [Gradient Boosting](#Gradient-Boosting) 
 
@@ -278,6 +283,33 @@ El Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) es una ram
 
 
 <br>[Volver al Índice](#Índice)
+
+
+
+
+# [Redes Neuronales](https://github.com/jrguignan/Machine_Learning/tree/main/Redes_Neuronales)
+
+
+
+## Redes Neuronales Artificiales
+
+[RNA-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Redes_Neuronales/redes_neuronales_artificiales.ipynb) - [RNA-R](https://github.com/jrguignan/Machine_Learning/blob/main/Redes_Neuronales/redes_neuronales_artificiales.R)
+
+Las redes neuronales son modelos computacionales inspirados en el funcionamiento del cerebro humano, diseñados para reconocer patrones y aprender de grandes volúmenes de datos. Su importancia radica en su capacidad para resolver problemas complejos en áreas como reconocimiento de imágenes, procesamiento de lenguaje natural, predicción de series temporales y más, lo que impulsa avances significativos en inteligencia artificial y machine learning.
+
+## Redes Neuronales Convolucionales
+
+[RNC-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Redes_Neuronales/redes_neuronales_convolucionales.ipynb)
+
+Las redes neuronales convolucionales (CNNs) son un tipo de red neuronal especialmente diseñada para procesar datos con una estructura de cuadrícula, como imágenes. Utilizan capas de convolución y agrupamiento para detectar características locales y patrones espaciales en los datos, lo que las hace extremadamente efectivas para tareas de visión por computadora como el reconocimiento de objetos y la clasificación de imágenes. Su importancia radica en su capacidad para lograr altos niveles de precisión en problemas complejos de procesamiento de imágenes, impulsando avances en campos como la inteligencia artificial y el aprendizaje profundo.
+
+
+Al ser el dataset pesado, no se decidión por un medio alterno y  se puede descargar de este link:
+[dataset-RNC](https://drive.google.com/file/d/1Kay-Ig6g2EyDBKPK0oK4UmGj8fCcifpb/view?usp=sharing)
+
+<br>[Volver al Índice](#Índice)
+
+
 
 
 
