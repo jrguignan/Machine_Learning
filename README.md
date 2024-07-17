@@ -2,6 +2,9 @@
 <img src="images/banner.png"  height=400>
 </p>
 
+
+El machine learning es una rama de la inteligencia artificial que permite a las máquinas aprender y mejorar a partir de datos y experiencias sin ser explícitamente programadas. Su importancia radica en su capacidad para analizar grandes volúmenes de datos, identificar patrones y hacer predicciones precisas, lo que impulsa avances en áreas como la medicina, finanzas, marketing, y tecnología, mejorando la eficiencia y toma de decisiones en diversas industrias.
+
 # Índice
 
 * [Pre Procesamiento](#Pre-Procesamiento) 
