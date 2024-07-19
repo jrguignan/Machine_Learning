@@ -59,10 +59,7 @@ El machine learning es una rama de la inteligencia artificial que permite a las 
 
 *NOTA:* Se usó rutas absolutas por lo que debes verificar el path que usarás al correr los códigos.
 
-<a name="Pre Procesamiento"></a>
 # [Pre Procesamiento](https://github.com/jrguignan/Machine_Learning/tree/main/Pre_Procesamiento)
-<details>
-<summary>Click para expandir!</summary>
 
 [Preprocesamietno-Python](https://github.com/jrguignan/Machine_Learning/blob/main/Pre_Procesamiento/pre_procesamiento.ipynb) - [Preprocesamietno-R](https://github.com/jrguignan/Machine_Learning/blob/main/Pre_Procesamiento/pre_procesamiento.R)
 
@@ -77,10 +74,9 @@ En esta sección se revisarán varios de los factores a tener en cuenta.
 
 <br>[Volver al Índice](#Índice)
 
-<a name="Regresión"></a>
+
 # [Regresión](https://github.com/jrguignan/Machine_Learning/tree/main/Regresion)
-<details>
-<summary>Click para expandir!</summary>
+
 
 Es un método estadístico y de aprendizaje automático utilizado para modelar la relación entre una variable dependiente y una o más variables independientes. En términos simples, la regresión permite predecir el valor de una variable basada en los valores de otras variables, identificando y cuantificando las conexiones entre ellas. Este enfoque es fundamental en diversas aplicaciones
 
